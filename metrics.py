@@ -35,10 +35,6 @@ def untransform_HR(datapt):
     un_norm = square* (norm_max - norm_min) + norm_min
     return un_norm
 
-
-
-
-
 from scipy.spatial.distance import jensenshannon
 
 def get_js_distance(predicted_im, observed_im): # hardcode upper and lower bound, set bins to 100
